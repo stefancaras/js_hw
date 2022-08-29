@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Listă numere</h2>
+        <div>
+            <label for="number1">De la:</label>
+            <input type="number" id="number1">
+        </div>
+        <div>
+            <label for="number2">Până la:</label>
+            <input type="number" id="number2">
+        </div>
+        <button type="button" id="calculate" onclick="oneToTwenty()">Arată</button>
+        <p id="output"></p>
+    <section>
+    <section>
+        <h2>Introdu niște numere:</h2>
+        <input type="text" id="list">
+        <button type="button" id="submit" onclick="txtToArray()">Trimite numerele</button>
+        <p id="outputList"></p>
+        <button type="button" id="sum" onclick="getSum(list)">Arată suma numerelor</button>
+        <p id="outputSum"></p>
+        <button type="button" id="max" onclick="largestNumber(list)">Arată numărul cel mai mare</button>
+        <p id="outputMax"></p>
+        <button type="button" id="rep" onclick="howMany(list)">Arată de câte ori apare fiecare număr</button>
+        <p id="outputRep"></p>
+    <section>
+    <section>
+        <h2>Câte numere vrei din seria Fibonacci?</h2>
+        <input type="number" id="fibonacciInput">
+        <button type="button" id="fibonacci" onclick="getFibList()">Arată numerele</button>
+        <p id="outputFibonacci"></p>
+    <section>
+    <section>
+        <h2>Câte numere vrei din seria FizzBuzz?</h2>
+        <input type="number" id="fizzbuzzInput">
+        <button type="button" id="fizzbuzz" onclick="getFizzList()">Arată numerele</button>
+        <p id="outputFizzbuzz"></p>
+    <section>
+    <script src="index.js"></script>
+</body>
+</html>
